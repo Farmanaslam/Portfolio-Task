@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://cdn-icons-png.flaticon.com/512/726/726056.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+  <body>
+    <section class="navbar-section row">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">Web Developer</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact Me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <div class="container">
+      <section class="home-section my-4">
+        <div class="row">
+          <div class="col-md-6 about-para">
+            <h3>Hello! I'm Farman, I design & build Web Applications.</h3>
+            <p>
+              I have a diverse set of skills ranging in web development and
+              design includes HTML+CSS+Javascript+React. I built front-end user
+              interfaces using CSS, Bootstrap, javascript.
+            </p>
+            <p>
+              I was in a position of Web Designer in my last internship where I
+              built School ERP Website using core technologies like CSS, JS &
+              Reactjs. I also worked on the optimisation and functionality of
+              live websites.
+            </p>
+            <p>
+              Currently, I am pursuing Bachelor of Technologoy in Computer
+              Science & Engineering from Bengal College of Engineering and
+              Technology, Durgapur.
+            </p>
+            <div class="view-btn mb-4 mb-md-0">
+              <a href="https://www.linkedin.com/in/farmasn"><button class="linkedIn-btn">View LinkedIn</button></a> 
+              <a href="https://github.com/Farmanaslam"><button class="github-btn mx-2">View Github</button></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img
+              class="about-img"
+              src="https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <h3 class="my-4">My Projects</h3>
+        <div class="row mx-1">
+          <div class="card my-2" style="width: 18rem">
+            <img src="https://media.slidesgo.com/storage/22533988/conversions/0-online-notebook-thumb.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">myNotebook-Website</h5>
+              <p class="card-text">
+                MyNotebook App- Create your notes that are saved in the cloud.
+                A Web Application which helps to create and retrive notes that are saved in cloud.
+                Technologies Used: CSS, Reactjs, Javascript, nodejs, mongoDb, Express.
+              </p>
+              <a href="https://github.com/Farmanaslam/MyNotebook-Website" class="btn btn-primary">myNotebook-Website</a>
+            </div>
+          </div>
+          <div class="card mx-md-4 my-2" style="width: 18rem">
+            <img src="https://icons4web.com/wp-content/uploads/2017/11/Daily-news-image-icon-208447.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">DailyNews Website</h5>
+              <p class="card-text">
+              An Indian News Rendering Web Application built using Reactjs and using newsapi.
+              It renders the latest news on the filtered category list.
+              Technologies Used: CSS, Reactjs, Javascript,newsAPI.
+              </p>
+              <a href="https://github.com/Farmanaslam/DailyNews" class="btn btn-primary">DailyNews</a>
+            </div>
+          </div>
+          <div class="card mx-md-4 my-2" style="width: 18rem">
+            <img src="https://images.unsplash.com/photo-1620275765334-4ed948bb4502?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bm90ZWJvb2t8ZW58MHx8MHx8fDA%3D" class="card-img-top img-2" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">TextUtility Website</h5>
+              <p class="card-text">
+                A simple website design to analyse different types of texts and provide some tools to convert your text from one form to another.
+                Technologies Used: CSS, Reactjs, Javascript.
+              </p>
+              <a href="https://textanalyse.netlify.app/" class="btn btn-primary">TextUtils</a>
+            </div>
+          </div>
+          <div class="card my-2" style="width: 18rem">
+            <img src="https://images.unsplash.com/photo-1456324504439-367cee3b3c32?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top img-3" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">ToDo App</h5>
+              <p class="card-text">
+                A Simple todo App where you can add your daily todo's and complete your todo's with the help of TodoApp.
+                Technologies Used: HTML, CSS, Javascript.
+              </p>
+              <a href="https://github.com/Farmanaslam/To-Do-App" class="btn btn-primary">Todo App</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="skills">
+        <h3 class="my-4">My Tech Stack</h3>
+        <div class="tech-stack row mx-1">
+          <div class="card my-2" style="width: 18rem">
+            <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-image-logo-html-7.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card mx-md-4 my-2" style="width: 18rem">
+            <img src="https://i.pinimg.com/originals/a9/dc/c7/a9dcc740cad3149598307b5de8bc10c3.jpg" class="card-img-top" alt="..." />
+          </div>
+          <div class="card mx-md-4 my-2" style="width: 18rem">
+            <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-logo-transparent-logo-javascript-images-3.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card my-2" style="width: 18rem">
+            <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/jquery-1-logo.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card my-2" style="width: 18rem">
+            <img src="https://ih0.redbubble.net/image.373612698.9613/raf,360x360,075,t,fafafa:ca443f4786.jpg" class="card-img-top" alt="..." />
+          </div>
+          <div class="card mx-md-4 my-2" style="width: 18rem">
+            <img src="https://i.pinimg.com/1200x/be/d3/0d/bed30ddfa5d434e827c775ac9a3b0d38.jpg" class="card-img-top" alt="..." />
+          </div>
+          <div class="card mx-md-4" style="width: 18rem">
+            <img src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" class="card-img-top" alt="..." />
+          </div>
+          <div class="card my-2" style="width: 18rem">
+            <img src="https://logowik.com/content/uploads/images/tailwind-css3232.logowik.com.webp" class="card-img-top" alt="..." />
+          </div>
+        </div>
+      </section>
+      <section class="contact-section" id="contact">
+        <h3 class="my-4">Contact me</h3>
+        <div class="contact-form">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label"
+              >Your Name</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="exampleFormControlInput1"
+              placeholder="enter your name"
+            />
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="yourname@example.com"
+              />
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label"
+              >Your Message</label
+            >
+            <textarea
+              class="form-control"
+              id="message"
+              rows="3"
+            ></textarea>
+          </div>
+        </div>
+        <button class="send-btn" onclick="sendMail()">
+          Send
+        </button>
+      </section>
+    </div>
+    
+    <section class="footer mt-2">&copy; Farman@2024</section>
+  </body>
+</html> 

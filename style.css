@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+body {
+  font-family: "poppins", sans-serif;
+}
+.about-para > h3 {
+  font-size: 32px;
+}
+.about-para p {
+  font-size: 20px;
+}
+.about-img {
+  height: 100%;
+  width: 100%;
+}
+.about-para button,
+.send-btn {
+  padding: 10px;
+}
+.linkedIn-btn,
+.send-btn {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+.github-btn {
+  background-color: white;
+  color: gray;
+}
+.portfolio img {
+  height: 200px;
+}
+.skills .card {
+  border: none;
+}
+.skills .card img {
+  height: fit-content;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
